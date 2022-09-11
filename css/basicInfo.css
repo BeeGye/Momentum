@@ -1,0 +1,115 @@
+#clock {
+  font-size: 100px;
+  text-decoration: underline 10px black;
+}
+
+#greeting {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 100px;
+}
+
+#over-form,
+#weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ccd5ae;
+  width: 500px;
+  padding: 40px;
+  border-radius: 20px;
+  border: solid 5px #d8a48f;
+  margin: 0px 100px;
+}
+
+#special-input {
+  border: solid 4px red;
+}
+
+#login-form {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+form input {
+  border: none;
+  font-family: "Courier Prime", "Yeon Sung", sans-serif;
+  padding: 10px;
+  width: 300px;
+  border-radius: 20px;
+}
+form input::placeholder {
+  color: black;
+}
+
+#todo-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80%;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#todo-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+#todo-list button {
+  border: none;
+  margin-left: 10px;
+  background-color: #ccd5ae;
+}
+
+#todo-list button:hover {
+  cursor: pointer;
+}
+
+#sideBySide {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+#weather {
+  height: 265px;
+}
+
+#yep {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#weather h1 {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+#yep span {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#weather h2,
+#weather h3 {
+  opacity: 0.6;
+}
+
+#quote {
+  position: absolute;
+  bottom: 30px;
+  width: 700px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 28px;
+  border-radius: 20px;
+  font-weight: 600;
+}

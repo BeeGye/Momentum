@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&family=Quicksand:wght@400;500;600&family=Yeon+Sung&display=swap");
+
+@import "basicInfo.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", "Yeon Sung", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
