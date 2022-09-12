@@ -14,11 +14,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #ccd5ae;
+  background-color: white;
   width: 500px;
   padding: 40px;
   border-radius: 20px;
-  border: solid 5px #d8a48f;
+  border: solid 5px black;
   margin: 0px 100px;
 }
 
@@ -61,7 +61,7 @@ form input::placeholder {
 #todo-list button {
   border: none;
   margin-left: 10px;
-  background-color: #ccd5ae;
+  background-color: white;
 }
 
 #todo-list button:hover {
