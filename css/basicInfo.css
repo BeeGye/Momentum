@@ -101,6 +101,7 @@ form input::placeholder {
 }
 
 #weather h1 {
+  font-size: 2.45vh;
   margin: 0;
   margin-bottom: 0.79vw;
 }
@@ -113,6 +114,11 @@ form input::placeholder {
 #weather h2,
 #weather h3 {
   opacity: 0.6;
+  font-size: 1.53vh;
+}
+
+#weather h2 {
+  font-size: 1.75vh;
 }
 
 #quote {
@@ -121,7 +127,7 @@ form input::placeholder {
   flex-direction: column;
   align-items: center;
   position: absolute;
-  bottom: 1.2vw;
+  bottom: 2.3vh;
 }
 
 #quote span:first-child {
