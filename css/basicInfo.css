@@ -25,6 +25,7 @@
   border-radius: 20px;
   border: solid 5px black;
   margin: 0 3.9vw;
+  height: 100%;
 }
 
 .special-input {
@@ -33,15 +34,16 @@
 
 #login-form {
   text-align: center;
-  margin: 210px 0px;
+  margin: 8.2vw 0;
 }
 
 form input {
   border: none;
   font-family: "Courier Prime", "Yeon Sung", sans-serif;
-  padding: 10px;
-  width: 300px;
-  border-radius: 20px;
+  padding: 0.4vw;
+  width: 15vw;
+  text-align: center;
+  border-radius: 0.82vw;
 }
 
 #todo-form {
@@ -64,10 +66,10 @@ form input::placeholder {
   flex-direction: column;
   align-items: flex-start;
   width: 80%;
-  font-size: 20px;
+  font-size: 0.79vw;
   font-weight: 600;
   margin: 0;
-  margin-top: 20px;
+  margin-top: 0.79vw;
 }
 
 #todo-list li {
@@ -79,7 +81,6 @@ form input::placeholder {
 
 #todo-list button {
   border: none;
-  margin-left: 10px;
   background-color: white;
 }
 
@@ -101,11 +102,11 @@ form input::placeholder {
 
 #weather h1 {
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 0.79vw;
 }
 
 #yep span {
-  font-size: 20px;
+  font-size: 0.79vw;
   font-weight: 500;
 }
 
@@ -116,12 +117,11 @@ form input::placeholder {
 
 #quote {
   color: white;
-  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: absolute;
-  bottom: 30px;
+  bottom: 1.2vw;
 }
 
 #quote span:first-child {
