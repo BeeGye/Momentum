@@ -25,8 +25,8 @@ function onGeoOk(position) {
 function onGeoError() {
   const errorText = document.querySelector("#weather h2");
   const errorSteps = document.querySelector("#weather h3");
-  errorText.innerText = "Cannot bring weather info";
-  errorSteps.innerText = "Allow location access to bring weather info";
+  errorText.classList.remove("hidden");
+  errorSteps.classList.remove("hidden");
 }
 
 navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);

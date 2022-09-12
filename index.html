@@ -13,7 +13,6 @@
     />
   </head>
   <body>
-    <h2 id="clock">00:00:00</h2>
     <form id="login-form" class="hidden">
       <input
         required
@@ -36,6 +35,7 @@
         </form>
         <ul id="todo-list"></ul>
       </div>
+      <h2 id="clock">00:00:00</h2>
       <div id="weather">
         <h1>Weather</h1>
         <div id="yep">
@@ -45,15 +45,14 @@
           <span></span>
           <span></span>
         </div>
-        <h2></h2>
-        <h3></h3>
+        <h2 class="hidden">Cannot bring weather info</h2>
+        <h3 class="hidden">Allow location access to bring weather info</h3>
       </div>
     </div>
     <div id="quote">
       <span></span>
       <span></span>
     </div>
-
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/quotes.js"></script>
