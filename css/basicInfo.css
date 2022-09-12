@@ -22,8 +22,8 @@
   margin: 0px 100px;
 }
 
-#special-input {
-  border: solid 4px red;
+.special-input {
+  border: solid 4px black;
 }
 
 #login-form {
