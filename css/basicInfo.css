@@ -64,12 +64,13 @@ form input::placeholder {
 #todo-list {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  width: 80%;
+  align-items: center;
+  width: 100%;
   font-size: 0.79vw;
   font-weight: 600;
   margin: 0;
   margin-top: 0.79vw;
+  padding: 0;
 }
 
 #todo-list li {
